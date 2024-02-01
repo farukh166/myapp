@@ -1,0 +1,7 @@
+version: '3'
+services:
+  mynodeapp:
+    build: ./
+    container_name: mynodeapp
+    ports:
+      - 3000:80
